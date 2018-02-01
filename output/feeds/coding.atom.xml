@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Journey to CodingLand - Coding</title><link href="http://ludennis.github.io/" rel="alternate"></link><link href="http://ludennis.github.io/feeds/coding.atom.xml" rel="self"></link><id>http://ludennis.github.io/</id><updated>2018-02-01T00:00:00-08:00</updated><entry><title>5 Days before my Deep Learning Nanodegree!</title><link href="http://ludennis.github.io/deep-learning-1.html" rel="alternate"></link><published>2018-02-01T00:00:00-08:00</published><updated>2018-02-01T00:00:00-08:00</updated><author><name>Dennis Lu</name></author><id>tag:ludennis.github.io,2018-02-01:/deep-learning-1.html</id><summary type="html">&lt;p&gt;Thoughts on Deep Learning Nanodegree&lt;/p&gt;</summary><content type="html">&lt;h1&gt;5 Days Before My Deep Learning Nanodegree in Udacity&lt;/h1&gt;
+&lt;p&gt;I am excited about to learn more on Udacity with this nanodegree. 5 days before class begin, a mentor is assigned to me for the duration of the class. I am preping this course by finishing up Udacity's Linear Algebra Refreshing Course. &lt;/p&gt;</content><category term="udacity"></category><category term="coding"></category></entry><entry><title>Pelican How-To</title><link href="http://ludennis.github.io/pelican-how-to.html" rel="alternate"></link><published>2018-01-13T14:23:00-08:00</published><updated>2018-01-13T14:23:00-08:00</updated><author><name>Dennis Lu</name></author><id>tag:ludennis.github.io,2018-01-13:/pelican-how-to.html</id><summary type="html">&lt;h1&gt;My Experience of Setting Up Pelican&lt;/h1&gt;
+&lt;p&gt;So I was doing Udacity's &lt;strong&gt;machine learning nanodegree&lt;/strong&gt; and in
+one of the lessons &lt;code&gt;pelican&lt;/code&gt; was mentioned. Having never setted 
+up a personal blog, I dipped into the nitty details and got some
+experience to make my own site on gihubpage with the help …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;My Experience of Setting Up Pelican&lt;/h1&gt;
+&lt;p&gt;So I was doing Udacity's &lt;strong&gt;machine learning nanodegree&lt;/strong&gt; and in
+one of the lessons &lt;code&gt;pelican&lt;/code&gt; was mentioned. Having never setted 
+up a personal blog, I dipped into the nitty details and got some
+experience to make my own site on gihubpage with the help of 
+some others who have already made the personal page with 
+&lt;code&gt;pelican&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;Setting Up My Environment&lt;/h2&gt;
+&lt;h3&gt;Miniconda&lt;/h3&gt;
+&lt;h3&gt;pip [packages]&lt;/h3&gt;
+&lt;h2&gt;Pelican&lt;/h2&gt;
+&lt;h3&gt;Installing Pelican&lt;/h3&gt;
+&lt;h3&gt;writing content&lt;/h3&gt;
+&lt;h3&gt;outputing the html websites&lt;/h3&gt;
+&lt;h2&gt;GitHub Page&lt;/h2&gt;
+&lt;h3&gt;username.github.io&lt;/h3&gt;
+&lt;h3&gt;username.github.io-src&lt;/h3&gt;</content><category term="pelican"></category><category term="coding"></category><category term="python"></category></entry><entry><title>First Post</title><link href="http://ludennis.github.io/my-first-post.html" rel="alternate"></link><published>2018-01-12T11:49:00-08:00</published><updated>2018-01-12T11:49:00-08:00</updated><author><name>Dennis Lu</name></author><id>tag:ludennis.github.io,2018-01-12:/my-first-post.html</id><summary type="html">&lt;p&gt;Just a first post by using Pelican&lt;/p&gt;</summary><content type="html">&lt;p&gt;My first post using pelican&lt;/p&gt;
+&lt;p&gt;=====================================&lt;/p&gt;
+&lt;p&gt;Trying some Markdown here:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;inline practice&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;and &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt;&lt;/p&gt;</content><category term="pelican"></category><category term="publishing"></category><category term="githubpage"></category></entry></feed>
