@@ -1,7 +1,8 @@
 Title: Kalman Filter #1
 Author: Dennis Lu
 Slug: kalman-filter-1
-Date: 2018-02-01
+Date: 2018-02-01 11:50
+Modified: 2018-02-01 12:51
 Category: Linear Algebra
 Tags: linearalgebra, math, learning
 Summary: Learning Kalman Filter #1
