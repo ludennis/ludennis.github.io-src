@@ -1,0 +1,6 @@
+[submodule "output"]
+	path = output
+	url = https://github.com/ludennis/ludennis.github.io.git
+[submodule "output/output"]
+	path = output/output
+	url = https://github.com/ludennis/ludennis.github.io.git
