@@ -22,4 +22,5 @@ From what I got from the first video, Kalman Filter is basically an algorithm th
 
 ## State Observer
 
-To implement a Kalman Filter, we will use a state observer to check the measeured value with estimated value. The state observer not only 
+To implement a Kalman Filter, we will use a state observer to check the measeured value with estimated value. The state observer is basically a mathamatical model that takes in the measured input and estimate the output and check against the mesaured output. With it the error of the observation betwee the estimate and mesaured value will be used in a Kalman Filter to find the value that we would like to find.
+
