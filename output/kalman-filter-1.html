@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+        <meta charset="utf-8" />
+        <title>Kalman Filter #1</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+
+        <!--[if IE]>
+            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Journey to CodingLand </a></h1>
+                <nav><ul>
+                    <li><a href="/category/coding.html">Coding</a></li>
+                    <li class="active"><a href="/category/linear-algebra.html">Linear Algebra</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/kalman-filter-1.html" rel="bookmark"
+           title="Permalink to Kalman Filter #1">Kalman Filter #1</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2018-02-01T11:50:00-08:00">
+                Published: Thu 01 February 2018
+        </abbr>
+		<br />
+        <abbr class="modified" title="2018-02-01T12:51:00-08:00">
+                Updated: Thu 01 February 2018
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/dennis-lu.html">Dennis Lu</a>
+        </address>
+<p>In <a href="/category/linear-algebra.html">Linear Algebra</a>.</p>
+<p>tags: <a href="/tag/linearalgebra.html">linearalgebra</a> <a href="/tag/math.html">math</a> <a href="/tag/learning.html">learning</a> </p>
+</footer><!-- /.post-info -->      <h1>Learning Kalman Filter</h1>
+<p>This is my first time hearing and learning Kalman Filter. </p>
+<p>When I was getting into Udacity's Linear Algebra Refresh Course in lesson 4, the topic of Kalman Filter was brought up, and no previous lessons in the course have introduced nor explained it. </p>
+<p>So upon Googling it, I have found that MatLab's company MathWorks have some videos about it here:
+<a href="https://www.mathworks.com/videos/series/understanding-kalman-filters.html">https://www.mathworks.com/videos/series/understanding-kalman-filters.html</a></p>
+<h2>Basic Understanding</h2>
+<p>From what I got from the first video, Kalman Filter is basically an algorithm that estimates a value that cannot be directly captured, but by other sources that are indirectly related to it. One of the example the tutorial uses is to show how Kalman Filter is used in estimating the location of a car when only the gyroscope and the odometer were available in the absent of GPS. </p>
+<h2>State Observer</h2>
+<p>To implement a Kalman Filter, we will use a state observer to check the measeured value with estimated value. The state observer is basically a mathamatical model that takes in the measured input and estimate the output and check against the mesaured output. With it the error of the observation betwee the estimate and mesaured value will be used in a Kalman Filter to find the value that we would like to find.</p>
+<h2>Optimal State Estimator</h2>
+<p>In the example of measuring a self-driving car's position, an optimal state estimator is used to find the position of the car. It combines the statistical model of the measurement of the position and the prediction of the position to find a new statistical model for where the position of the car will be. 
+<img alt="Alt Text" src="/images/optimal-state-estimator.png"></p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>

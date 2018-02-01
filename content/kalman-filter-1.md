@@ -14,7 +14,7 @@ This is my first time hearing and learning Kalman Filter.
 When I was getting into Udacity's Linear Algebra Refresh Course in lesson 4, the topic of Kalman Filter was brought up, and no previous lessons in the course have introduced nor explained it. 
 
 So upon Googling it, I have found that MatLab's company MathWorks have some videos about it here:
-https://www.mathworks.com/videos/series/understanding-kalman-filters.html
+<https://www.mathworks.com/videos/series/understanding-kalman-filters.html>
 
 
 ## Basic Understanding
@@ -25,3 +25,7 @@ From what I got from the first video, Kalman Filter is basically an algorithm th
 
 To implement a Kalman Filter, we will use a state observer to check the measeured value with estimated value. The state observer is basically a mathamatical model that takes in the measured input and estimate the output and check against the mesaured output. With it the error of the observation betwee the estimate and mesaured value will be used in a Kalman Filter to find the value that we would like to find.
 
+## Optimal State Estimator
+
+In the example of measuring a self-driving car's position, an optimal state estimator is used to find the position of the car. It combines the statistical model of the measurement of the position and the prediction of the position to find a new statistical model for where the position of the car will be. 
+![Alt Text]({filename}/images/optimal-state-estimator.png)
